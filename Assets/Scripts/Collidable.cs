@@ -7,27 +7,21 @@ public class Collidable : MonoBehaviour
     public GameManager manager;
     public float moveSpeed = 20f;
     public float timeAmount = 1.5f;
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
 
     // Update is called once per frame
     void Update()
     {
-        {
-            transform.Translate(0, 0, -moveSpeed * Time.deltaTime);
-        }
+        transform.Translate(0, 0, -moveSpeed * Time.deltaTime);
+    }
 
-        void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
         {
-            if (other.tag == "Player")
-            {
-                manager.AdjustTime(timeAmount);
-                Destroy(gameObject);
-            }
+            manager.AdjustTime(timeAmount);
+            Destroy(gameObject);
         }
     }
 }
+
 
