@@ -1,0 +1,29 @@
+GameCritic
+
+1.Is the game to easy or hard? Give 3 reasons why it is easy or hard.
+To easy.
+Objects move pretty slow
+There is a lot of space to move around
+There isnt much to predict with only two objects one you want and one you don't.
+
+2.What 3 changes would you do to make it easier or harder?
+Increase spead to make it harder
+Add new objects powerups and obstacles
+scale up the obstacles
+
+
+3.List three things that would give it a "wow" factor.
+New Models/Animation for objects
+New Powerups and Obstacles
+A better Phase move
+
+4.What parts of the game are fun? 
+Avoiding the Obstacles
+Collecting the Powerups
+Using the player powers
+
+5. What parts of the game are tedious?
+The use of the same to objects.
+The unlimited phasing power.
+No variation of running.
+
